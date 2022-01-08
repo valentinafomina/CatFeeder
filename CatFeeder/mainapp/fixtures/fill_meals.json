@@ -1,0 +1,56 @@
+[
+  {
+    "pk": 1,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T20:15:30.000Z",
+      "catId": "2",
+      "size": "10"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T23:15:30.000Z",
+      "catId": "2",
+      "size": "10"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T17:15:30.000Z",
+      "catId": "2",
+      "size": "10"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T17:15:30.000Z",
+      "catId": "1",
+      "size": "6"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T20:15:30.000Z",
+      "catId": "1",
+      "size": "6"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "mainapp.meals",
+    "fields": {
+      "entryTime": "2021-12-20T23:15:30.000Z",
+      "catId": "1",
+      "size": "6"
+    }
+  }
+]

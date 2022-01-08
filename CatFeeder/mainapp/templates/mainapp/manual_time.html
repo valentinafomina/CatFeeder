@@ -1,0 +1,25 @@
+{% extends 'mainapp/base.html' %}
+
+{% block content %}
+<div class="container-s">
+    <form method="post" id="FormTwo">
+        <div class="row justify-content-center">
+            {% csrf_token %}
+            <div class="col-4">
+                {{manual_form1}}
+            </div>
+            <div class="col-4">
+                {{manual_form2}}
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                {{medform}}
+            </div>
+            <div class="col-4">
+                <input type='submit' class="btn btn-primary mb-3" value="Отправить"/>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

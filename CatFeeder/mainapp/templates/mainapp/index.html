@@ -1,0 +1,67 @@
+{% extends 'mainapp/base.html' %}
+
+{% block content %}
+    <div class="container-s">
+        <p class="row justify-content-center">Latest Meals</p>
+        <div class="row justify-content-center">
+            <div class="col-4">
+            <h6>Finik</h6>
+                <ul>
+                {% for time, size in f_meals %}
+                <li>{{ time }} - {{ size }}</li>
+                {% endfor %}
+                </ul>
+<!--                <ul>-->
+<!--                {% for key, value in latest_meals_finik.items %}-->
+<!--                <li>{{ key }} - {{ value }}</li>-->
+<!--                {% endfor %}-->
+<!--                </ul>-->
+            </div>
+            <div class="col-4">
+            <h6>Vinik</h6>
+                <ul>
+                {% for time, size in v_meals %}
+                <li>{{ time }} - {{ size }}</li>
+                {% endfor %}
+                </ul>
+            </div>
+         </div>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <h6>Medication</h6>
+                    {{pulmicort}}
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+            <form method="post" id="FormOne">
+                <div class="row justify-content-center">
+                {% csrf_token %}
+                <div class="col-4">
+                    {{form1}}
+                </div>
+                <div class="col-4">
+                    {{form2}}
+                </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        Лекарство: <input type="checkbox" name="med"/>
+                    </div>
+                    <div class="col-4">
+                        <input type='submit' class="btn btn-primary mb-3" value="Отправить"/>
+                    </div>
+                </div>
+            </form>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <a href="/manual_time" class="link-primary">Enter time manually</a>
+                </div>
+                <div class="col-4">
+
+                </div>
+            </div>
+    </div>
+{% endblock %}

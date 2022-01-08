@@ -1,0 +1,16 @@
+[
+  {
+    "pk": 1,
+    "model": "mainapp.cat",
+    "fields": {
+      "name": "Vishenka"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "mainapp.cat",
+    "fields": {
+      "name": "Finik"
+    }
+  }
+]

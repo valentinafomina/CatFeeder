@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CatFeeder/CatFeeder/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/CatFeeder/asgi.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/CatFeeder/settings.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/CatFeeder/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/CatFeeder/wsgi.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/db.sqlite3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/apps.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/fixtures/fill_db.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/fixtures/fill_meals.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/forms.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/migrations/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/tests.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CatFeeder/mainapp/views.py" charset="UTF-8" />
+  </component>
+</project>
