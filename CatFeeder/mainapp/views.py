@@ -7,13 +7,12 @@ from .forms import MealsEntryForm, ManualTimeEntryForm, ManualMedTime
 
 
 def index(request):
-
-    pulm = Medication.objects.latest('entryTime').entryTime.strftime("%H:%M")
+    med_time = Medication.get_latest_med_time()
     v_meals, f_meals = Meals.get_latest_meals(6)
 
     context = {'v_meals': v_meals,
                'f_meals': f_meals,
-               'pulmicort': pulm}
+               'med_time': med_time}
 
     if request.method == "POST":
 
